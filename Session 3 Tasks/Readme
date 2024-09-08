@@ -1,0 +1,79 @@
+# Classification Evaluation
+# Student Dropout Prediction
+
+This repository contains a machine learning project aimed at predicting student dropouts using classification models such as Logistic Regression, Random Forest, and SVM. The dataset includes various features related to student demographics and academic performance.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Modeling and Evaluation](#modeling-and-evaluation)
+- [Requirements](#requirements)
+- [Usage](#usage)
+- [Results](#results)
+- [License](#license)
+
+## Project Overview
+
+The goal of this project is to predict whether a student will graduate, drop out, or remain enrolled based on their features. We use machine learning models and evaluate their performance on a variety of metrics including Accuracy, Mean Absolute Error (MAE), Mean Squared Error (MSE), and AUC-ROC.
+
+## Dataset
+
+The dataset used in this project is named `student_dropout.csv`, containing student records with features like:
+
+- Marital Status
+- Application Mode
+- Course
+- Mother's Qualification
+- Father's Qualification
+- Target: `Graduate`, `Dropout`, or `Enrolled`
+
+The target variable is mapped to:
+- `0`: Graduate
+- `1`: Dropout
+- `2`: Enrolled
+
+## Modeling and Evaluation
+
+The project involves the following steps:
+
+1. **Data Preprocessing**: Clean the data, map target labels, and select features based on their correlation with the target.
+2. **Train-Validation-Test Split**: Split the data into training (70%), validation (15%), and test (15%) sets.
+3. **Feature Scaling**: Apply `StandardScaler` to normalize the feature values.
+4. **Modeling**: Train and evaluate three classification models:
+   - Logistic Regression
+   - Random Forest
+   - Support Vector Machine (SVM)
+5. **Cross-Validation**: Perform 5-fold cross-validation on the training data to evaluate model stability.
+6. **Evaluation Metrics**: Compute and compare the following metrics:
+   - Accuracy
+   - Mean Absolute Error (MAE)
+   - Mean Squared Error (MSE)
+   - ROC-AUC (for binary classification)
+
+## Requirements
+
+To run this project, you need to install the following Python packages:
+
+```bash
+pip install pandas numpy scikit-learn
+
+The models are evaluated using accuracy, MAE, MSE, and ROC-AUC. Based on the evaluation, the best model can be chosen for further tuning or deployment.
+
+Example results (for validation set):
+
+Model	Accuracy	MAE	MSE	ROC-AUC
+Logistic Regression	0.85	0.12	0.15	0.92
+Random Forest	0.87	0.10	0.13	0.94
+SVM	0.84	0.14	0.16	0.91
+
+
+### Explanation:
+
+- **Project Overview**: Summarizes the purpose of the project.
+- **Dataset**: Describes the dataset and how the target variable is processed.
+- **Modeling and Evaluation**: Explains the steps taken to preprocess the data, split it, and evaluate different models.
+- **Requirements**: Lists the required Python libraries.
+- **Usage**: Provides instructions on how to clone the repository, set up the dataset, and run the project.
+- **Results**: Placeholder for your model evaluation results.
+- **License**: Includes a license section if your repository has a license file.
