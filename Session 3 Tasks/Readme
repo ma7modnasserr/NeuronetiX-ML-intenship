@@ -62,10 +62,10 @@ The models are evaluated using accuracy, MAE, MSE, and ROC-AUC. Based on the eva
 
 Example results (for validation set):
 
-Model	Accuracy	MAE	MSE	ROC-AUC
-Logistic Regression	0.85	0.12	0.15	0.92
-Random Forest	0.87	0.10	0.13	0.94
-SVM	0.84	0.14	0.16	0.91
+Model	                  Accuracy	MAE	MSE	ROC-AUC
+Logistic Regression	        0.85	0.12	0.15	0.92
+Random Forest	              0.87	0.10	0.13	0.94
+SVM	                        0.84	0.14	0.16	0.91
 
 
 ### Explanation:
