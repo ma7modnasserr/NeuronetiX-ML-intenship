@@ -40,11 +40,12 @@ In this task, I explored clustering algorithms to find patterns in data without 
 ## Task 5: Model Comparison (Supervised and Unsupervised)
 For this final task, I created and compared two supervised and two unsupervised learning models:
 
-Supervised Learning Models: Built two models using techniques like Decision Trees and Support Vector Machines (SVM).
-Unsupervised Learning Models: Compared clustering algorithms such as K-Means and Hierarchical Clustering.
-Task 5 Files
+- Supervised Learning Models: Built two models using techniques like Decision Trees and Support Vector Machines (SVM).
+- Unsupervised Learning Models: Compared clustering algorithms such as K-Means and Hierarchical Clustering.
+
 
 ## Repository Structure
+
 /NeuronetiX-ML-Internship
 │
 ├── Task1_Regression/
@@ -52,6 +53,7 @@ Task 5 Files
 ├── Task3_Evaluation/
 ├── Task4_UnsupervisedLearning/
 └── Task5_ModelComparison/
+
 
 
 ## Contact
