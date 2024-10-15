@@ -57,5 +57,5 @@ For this final task, I created and compared two supervised and two unsupervised 
 
 
 ## Contact
-For more details on this internship and the tasks, feel free to check the repository or contact me via LinkedIn.
+For more details on this internship and the tasks, feel free to check the repository or contact me via LinkedIn "https://www.linkedin.com/in/ma7modnasserr/".
 
